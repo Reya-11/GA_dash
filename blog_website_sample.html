@@ -116,8 +116,10 @@ small {
 </div>
 
 <script>
-  $('div').on('click', function() {
+  $(document).ready(function() {
+    $('div').on('click', function() {
       $(this).toggleClass('show-description');
+    });
   });
 </script>
 
