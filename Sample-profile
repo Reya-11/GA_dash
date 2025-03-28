@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <title>Shreya</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("http://dash.ga.co/assets/anna-bg.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+    .main{
+      height:200px;
+      width:200px;
+      object-fit: cover;
+      border-radius:75%;
+    }
+  .smAll{
+    width:30px;
+    height:30px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+  </style>
+</head>
+<body>
+  <img class="main"
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLnSm4Ck25Pxx8eiEsHH8HofA67FtIOlPnw">
+  <p>Hi! I'm Shreya</p>
+  <p>Contact me through
+  <img class="smAll"
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eo_circle_green_arrow-down.svg/768px-Eo_circle_green_arrow-down.svg.png?20200417132034" ></p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
